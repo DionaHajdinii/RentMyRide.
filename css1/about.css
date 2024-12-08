@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap");
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #090808;
+    background-color: white;
+    line-height:1.6;
+}
+
+header {
+    text-align: center;
+    background:#0048ff;
+    color: white;
+    padding: 2em 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#about-us {
+    position: relative;
+    min-height: 100vh; 
+    background: url('assets-1/about.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.about-overlay {
+    background: rgba(142, 131, 131, 0.6); 
+    padding: 2em;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+}
+
+#about-us h2 {
+    margin-bottom: 1em;
+    font-size: 2rem;
+    color: #f3f3f3;
+}
+
+#about-us p {
+    font-size: 1rem;
+    color: #0b0b0b;
+    text-align: justify;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background:#0048ff;
+    color: rgb(240, 240, 241);
+    padding: 1em;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
